@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="section signup">
+        <div class="form__container container grid">
+            <div class="form">
+                <h4 class="form__title">Registrar</h4>
+
+                <div class="form__inputs">
+                    <input type="text" placeholder="Digite seu nome" autocomplete="off" id="name">
+
+                    <input type="email" placeholder="Digite seu email" autocomplete="off" id="email">
+
+                    <input type="password" placeholder="Digite sua senha" autocomplete="off" id="password">
+                </div>
+
+                <span class="form__error">🤷‍♂️This is an error!</span>
+
+                <div class="form__checkbox">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">
+                        Voce aceita os 
+                        <a href="#">termos e as codições?</a>
+                    </label>
+                </div>
+
+                <button class="submit__button button">Registrar</button>
+
+                <span class="login__link">Já tem uma conta?<a href="/login">Entrar</a></span>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/common.js"></script>
+
+    <script src="js/form.js"></script>
+</body>
+</html>
